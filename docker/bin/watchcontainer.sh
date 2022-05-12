@@ -18,7 +18,8 @@ echo "Watching $CONTAINER..."
 for i in {1..10}; do
     # Sleep first so we don't log anything unless we're likely in a hang situation.
     sleep 30
-
+    
+    echo "Blockchain is downloading and being expanded and is large so this will take a while, let it run until complete. This message will loop every 30 seconds"
     echo "Still waiting for $CONTAINER"
 
     echo "Container logs..."
